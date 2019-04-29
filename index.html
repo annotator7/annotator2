@@ -10,6 +10,8 @@
     <meta name="description" content="Firebase v3 Web Auth Full Functionality Example Code" />
     <!-- Format as Primary Keyword - Secondary Keyword | Brand Name, keep under 55 characters -->
     <title>Annotator</title>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+
     <!-- Minimize the number of CSS files for performance -->
     <link rel="shortcut icon" href="favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,100,300,700italic,500,500italic,400italic,300italic,100italic|Roboto+Condensed:300' rel='stylesheet' type='text/css'>
@@ -25,7 +27,7 @@
         <header class="mdl-layout__header mdl-layout__header--transparent ">
             <div class="mdl-layout__header-row mdl-color-text--grey-700">
                 <span class="mdl-layout-title">
-            <a href="/"><img src="../images/firebase-logo.png" alt="logo" height="48"></a>
+            <a href="/"><img src="images/firebase-logo.png" alt="logo" height="48"></a>
           </span>
                 <!-- Add spacer, to align navigation to the right -->
                 <div class="mdl-layout-spacer"></div>
@@ -45,7 +47,7 @@
             
         <!-- Side Drawer -->
         <div class="mdl-layout__drawer">
-            <span class="mdl-layout-title"><img src="../images/firebase-logo.png" alt="logo" height="48"></span>
+            <span class="mdl-layout-title"><img src="images/firebase-logo.png" alt="logo" height="48"></span>
             <div class="drawer-separator"></div>
             <nav class="mdl-navigation">
                 <a class="mdl-navigation__link" href="/public"><i class="material-icons">lock_open</i> Public</a>
@@ -161,8 +163,7 @@
       <![endif]-->
     <!-- end shims -->
         
-    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
-<script>
+    <script>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBxQUY7-aEBCMUHRdQU3cW0QXRwoGTlPDI",
